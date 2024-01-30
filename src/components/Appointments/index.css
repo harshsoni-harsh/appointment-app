@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.body {
+  min-height: 100vh;
+  background: linear-gradient(#fbc7d4, #9796f0);
+  padding: 100px 50px;
+  display: flex;
+  justify-content: center;
+}
+.body > * {
+  padding: 30px;
+}
+.outerCard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  color: #171f46;
+  font-family: Roboto;
+  width: min(80vw, 700px);
+  height: fit-content;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.card > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card > img {
+  max-width: min(40vw, 50%);
+}
+hr {
+  margin: 15px 0;
+  width: 100%;
+  color: #b5b7c4;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.addBtn {
+  background-color: #8b5cf6;
+  color: white;
+  width: fit-content;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.starredBtn {
+  border: 1px #9897f0 solid;
+  color: #9897f0;
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: transparent;
+}
+input {
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px #b5b7c4 solid;
+  width: 80%;
+  margin-bottom: 15px;
+}
+label {
+  margin-bottom: 8px;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .card > img {
+    display: none;
+  }
+}

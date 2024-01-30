@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+li {
+  list-style: none;
+  color: #171f46;
+  width: 300px;
+  padding: 10px;
+  border: 1px #b5b7c4 solid;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+}
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.appointment-date {
+  margin: 0;
+  display: inline;
+  color: #b5b7c4;
+}
+.appointment-title {
+  color: #171f46;
+  margin: 5px 0;
+  font-weight: bold;
+}
+.star {
+  height: 20px;
+  width: 20px;
+}
+.starBtn {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
